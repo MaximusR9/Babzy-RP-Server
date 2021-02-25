@@ -1,0 +1,15 @@
+{
+	"user": "MaximusR9",
+	"repo": "Babzy-RP-Server",
+	"entry": "gamemodes\\roleplay.pwn",
+	"output": "gamemodes\\roleplay.amx",
+	"dependencies": [
+		"sampctl/samp-stdlib",
+		"pawn-lang/YSI-Includes",
+		"pawn-lang/YSI-Includes",
+		"pawn-lang/YSI-Includes",
+		"pawn-lang/YSI-Includes",
+		"samp-incognito/samp-streamer-plugin"
+	],
+	"local": true
+}
