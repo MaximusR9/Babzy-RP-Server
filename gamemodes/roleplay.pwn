@@ -63,7 +63,7 @@ public OnGameModeInit()
 //#include <oof_intmenu>
 #include <easyDialog>
 //#include <fly>
-#include <distance>
+#include <samp-distance>
 
 // Default Values
 #define DEFAULT_WORLD		0
@@ -658,6 +658,7 @@ public OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
 				SetPlayerAttachedObject(playerid, 0, 1271, 1, 0.0, 0.5, 0.0, 0.0, 0.0, 0.0, 0.727, 0.736, 0.926);
 				//EditAttachedObject(playerid, 0);
 				ApplyAnimation(playerid, "CARRY", "liftup", 4.0, 0, 0, 0, 0, 0);
+				ApplyAnimation(playerid, "CARRY", "crry_prtial", 4.0, 1, 1, 1, 1, 1);
 				//SetPlayerAttachedObject(playerid, index, modelid, bone, Float:fOffsetX = 0.0, Float:fOffsetY = 0.0, Float:fOffsetZ = 0.0, Float:fRotX = 0.0, Float:fRotY = 0.0, Float:fRotZ = 0.0, Float:fScaleX = 1.0, Float:fScaleY = 1.0, Float:fScaleZ = 1.0, materialcolor1 = 0, materialcolor2 = 0)
 				SendClientMessage(playerid, COLOR_ORANGE, "*Picks up a box of materials");
 				SendClientMessage(playerid, COLOR_RED, "((Press \"Y\" to load the materials into the truck))");
